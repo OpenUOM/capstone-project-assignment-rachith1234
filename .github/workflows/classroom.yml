@@ -12,8 +12,16 @@ jobs:
     name: Autograding
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
       - uses: actions/setup-node@v3
         with:
           node-version: 16
       - uses: actions/checkout@v2
       - uses: education/autograding@v1
+=======
+    - uses : actions/setup-node@v3
+        with :
+          node-version: 16
+      - uses: actions/checkout@v4
+      - uses: education/autograding@v1
+>>>>>>> 78a6f4afd978273bccb6a9a6075f080de5980f29
